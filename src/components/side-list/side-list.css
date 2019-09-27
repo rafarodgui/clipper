@@ -1,0 +1,55 @@
+.side-list{
+    position: fixed;
+    width: 150px;
+    height: 100%;
+    background: #444;
+    box-sizing: border-box;
+    color: #FFF;
+}
+
+.side-video-list li{
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+}
+
+.side-video-list li:hover{
+    background: #0a1c25;
+    border-bottom: 1px solid #eee;
+    transition: 300ms;
+}
+.search{
+    display: flex;
+    position: fixed;
+    margin-left: 151px;
+    background: #ccc;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+}
+.search img{    
+    margin: 5px 10px auto 10px;
+    
+}
+.search form input{
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    color: #666;
+    font-size: 20px;
+    border: none;
+    width: 400px;
+}
+.search input[type=sumit]{
+    display: none;
+}
+.error{
+    position: absolute;
+    font-size: 20px;
+    color: #F00;
+    margin: 50px auto auto 730px;
+    font-weight: bold;
+}

@@ -1,0 +1,23 @@
+.main-video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 640px;
+    background: #222;
+    text-align: center;
+    color: #bbb;
+    margin: 80px 180px 40px 180px;
+    box-sizing: border-box;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 3px 3px 10px #555;
+}
+.video-info{
+    box-sizing: border-box;
+    padding: 20px;
+}
+.video-info h1{
+    color: #ddd;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
